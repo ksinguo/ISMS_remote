@@ -1,0 +1,34 @@
+/* .a4{
+    width: 210mm;
+    height: 297mm;
+     /* 只是為了可視化邊界 */
+    /* margin: 0 auto; */
+/* }  */
+/* body {
+    max-width: 210mm;
+    height: 297mm;
+    margin: 0;
+    margin: 0 auto;
+    /* 其他樣式 }*/
+
+.a4{
+    max-width: 210mm;
+    height: 297mm;
+    margin: 0 auto;
+    padding-top: 15mm;
+    padding-bottom: 15mm;
+}
+.header{
+    margin-left: 10mm;
+}
+.footer{
+    padding-right:11mm;
+    padding-left: 11mm;
+}
+.note p{
+    line-height: 2;
+}
+.mg{
+    display: inline-block;
+    margin-right: 100px;
+}
